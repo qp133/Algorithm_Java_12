@@ -22,7 +22,7 @@ public class HW_905_Sort_Array_By_Parity {
     }
 
     public static void main(String[] args) {
-        int[] nums = {3,1,2,4};
+        int[] nums = {1,2,3,4,5,6};
         sortArrayByParity(nums);
         System.out.println(Arrays.toString(nums));
     }
