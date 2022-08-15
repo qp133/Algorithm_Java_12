@@ -1,12 +1,22 @@
 public class Student {
+    private int id;
     private String name;
     private int age;
     private int GPA;
 
-    public Student(String name, int age, int GPA) {
+    public Student(int id, String name, int age, int GPA) {
+        this.id = id;
         this.name = name;
         this.age = age;
         this.GPA = GPA;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public Student() {
@@ -38,6 +48,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return name + " - " + age + " - " + GPA;
+        return id + " - " + name + " - " + age + " - " + GPA;
     }
 }
