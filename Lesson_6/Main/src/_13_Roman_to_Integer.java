@@ -28,8 +28,8 @@ public class _13_Roman_to_Integer {
             }
         }
         int sum = 0;
-        for (int i = n; i >= 0; i--) {
-            while () {
+        for (int i = n; i < 0; i--) {
+            while (i >= 0) {
                 if (nums[i] > nums[i-1]) {
                     sum += nums[i] - nums[i-1];
                     i--;
