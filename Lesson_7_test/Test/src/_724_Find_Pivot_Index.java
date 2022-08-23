@@ -1,7 +1,7 @@
 public class _724_Find_Pivot_Index {
     public static int pivotIndex(int[] nums) {
         int sum = 0, leftsum = 0;
-        for (int x: nums) {
+        for (int x: nums) {     //tổng toàn bộ phần tử
             sum += x;
         }
         for (int i = 0; i < nums.length; i++) {
