@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="185b9284-1fb5-4965-8789-9f6b874a6a6a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/_112_Path_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW_112_Path_Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_98_Validate_Binary_Search_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW_98_Validate_Binary_Search_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_104_Maximum_Depth_of_Binary_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,9 @@
       <updated>1661515333369</updated>
       <workItem from="1661515334910" duration="4396000" />
       <workItem from="1661698969052" duration="4328000" />
-      <workItem from="1661745781428" duration="3949000" />
+      <workItem from="1661745781428" duration="4217000" />
+      <workItem from="1661759611986" duration="1374000" />
+      <workItem from="1661774009778" duration="628000" />
     </task>
     <servers />
   </component>
@@ -85,16 +87,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
