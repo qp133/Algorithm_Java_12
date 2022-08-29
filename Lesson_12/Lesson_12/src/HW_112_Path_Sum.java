@@ -1,4 +1,4 @@
-public class _112_Path_Sum {
+public class HW_112_Path_Sum {
     public boolean hasPathSum(TreeNode root, int targetSum) {
         if (root == null) {
             return false;

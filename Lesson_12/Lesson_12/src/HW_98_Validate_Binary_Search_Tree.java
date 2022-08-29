@@ -1,4 +1,4 @@
-public class _98_Validate_Binary_Search_Tree {
+public class HW_98_Validate_Binary_Search_Tree {
     public boolean isValidBST(TreeNode root) {
         return isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
     }
