@@ -1,3 +1,5 @@
+import javax.swing.tree.TreeNode;
+
 public class Main {
     public static void main(String[] args) {
         Node n1 = new Node(1);
@@ -24,5 +26,19 @@ public class Main {
         System.out.println();
 
         binarySearchTree.postOrder(n6);
+        System.out.println();
+
+        n6 = binarySearchTree.insert(n6, 0);
+
+        binarySearchTree.inOrder(n6);
+        System.out.println();
+
+        n6 = binarySearchTree.insert(n6, 8);
+
+        binarySearchTree.inOrder(n6);
+        System.out.println();
+
+        n6 = binarySearchTree.remove(n6, 2);
+        System.out.println();
     }
 }
