@@ -1,9 +1,9 @@
 public class HW_98_Validate_Binary_Search_Tree {
     public boolean isValidBST(TreeNode root) {
-        return isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+        return isBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
-    public boolean isBST(TreeNode root, int min, int max) {
+    public boolean isBST(TreeNode root, long min, long max) {
         if (root == null) {
             return true;
         }
